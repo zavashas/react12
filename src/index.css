@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.info-card {
+  background-color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(242, 240, 240, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  max-width: 300px;
 }
+
+.info-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.info-card h2 {
+  margin-bottom: 5px;
+}
+
+.info-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+button {
+  background-color: #e805a8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  gap: 5px;
+}
+
+.films-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-container input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #e805a8;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.header-container button {
+  background-color: #e805a8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.top-films-button {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+}
+
+
